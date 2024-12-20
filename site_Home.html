@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="violao.png">
+    <link rel="stylesheet" href="site_Home.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+      <!--hedder-->
+    <nav>
+        <ul class="left-aligned">
+            <li><a href="site_Home.html"><img src="Logo.violarone.png" alt="Violarone" class="Home"></a></li>
+        </ul>
+        <ul class="right-aligned">
+            <li><a href="site_nos.html">Quem somos nós</a></li>
+            <li><a href="site_login.html">Login</a></li>
+          
+        </ul>
+    </nav>
+    <div class="content">
+        <!-- conteudo da pagina -->
+    </div>
+    <div class="products">
+        <div class="product1">
+            <!-- tela de produtos -->
+            <img src="yamaha_acus.png" alt="foto_produto" style="width: 74%;" />
+            <h1>YAMAHA Violão acústico</h1>
+            <p>Violão acústico de aço YAMAHA</p>
+            <p>preço:799,90BRL </p>
+            <button id="toggleButton1">Comprar Agora</button>
+        </div>
+        <div class="product2">
+            <!-- tela de produto -->
+            <img src="guitarra1.jpg" alt="foto_produto" style="width: 100%;" />
+            <h1>Electric Guitar ST Series </h1>
+            <p>guitarra eletrica Rosewood.(preta)</p>
+            <p>preço:799,90BRL </p>
+            <button id="toggleButton2">Comprar Agora</button>
+        </div>
+        <div class="product3">
+            <!-- tela de produto -->
+            <img src="produto3.jpg" alt="foto_produto" style="width: 38.4%;" />
+            <h1>Electric Guitar ST Series </h1>
+            <p>guitarra eletrica Rosewood.(preta)</p>
+            <p>preço:2.572BRL </p>
+            <button id="toggleButton3">Comprar Agora</button>
+        </div>
+        
+    </div>
+    
+    <script>
+        document.getElementById('toggleButton1').addEventListener('click', function () {
+            var product1 = document.querySelector('.product1');
+            var product2 = document.querySelector('.product2');
+            var product3 = document.querySelector('.product3');
+            product1.style.display = 'block';
+            product2.style.display = 'none';
+            product3.style.display = 'none';
+        });
+    
+        document.getElementById('toggleButton2').addEventListener('click', function () {
+            var product1 = document.querySelector('.product1');
+            var product2 = document.querySelector('.product2');
+            var product3 = document.querySelector('.product3');
+            product1.style.display = 'none';
+            product2.style.display = 'block';
+            product3.style.display = 'none';
+        });
+    
+        document.getElementById('toggleButton3').addEventListener('click', function () {
+            var product1 = document.querySelector('.product1');
+            var product2 = document.querySelector('.product2');
+            var product3 = document.querySelector('.product3');
+            product1.style.display = 'none';
+            product2.style.display = 'none';
+            product3.style.display = 'block';
+        });
+    </script>
+    
+</body>
+
+</html>

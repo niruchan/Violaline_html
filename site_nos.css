@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #D2B48C ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.Quem {
+    padding: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+nav {
+    background-color: #D2B48C;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #F5F5DC;
+    display: inline;
+}
+
+nav ul li a {
+    color: #F5F5DC;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #F5F5DC;
+    text-decoration: none;
+}
+
+ul.right-aligned {
+    text-align: right;
+}
+
+li.left-aligned {
+    text-align: left;
+    font-size: 50px;
+}

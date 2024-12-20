@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC;
+    height: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #D2B48C;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #afafaf;
+    display: inline;
+}
+
+nav ul li a {
+    color: #F5F5DC;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.7s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.8);
+}
+
+ul.right-aligned {
+    text-align: right;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            width: 120%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #F5F5DC;
+        }
+
+        .product1,
+        .product2,
+        .product3 {
+            flex: 0 0 calc(33.33% - 40px);
+            margin: 5px;
+            padding: 20px;
+            text-align: center;
+            background-color:#ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    background-color: #885353;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 1px;
+    text-align: left;
+    background-color: #885353;
+}
+
+th {
+    background-color: #885353;
+}

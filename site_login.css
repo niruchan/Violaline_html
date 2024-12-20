@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: #D2B48C;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input,
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* 追加: フォントサイズを16pxに設定 */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+nav {
+    background-color: #D2B48C;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #F5F5DC;
+    display: inline;
+}
+
+nav ul li a {
+    color: #F5F5DC;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #F5F5DC;
+    text-decoration: none;
+}
+
+ul.right-aligned {
+    text-align: right;
+}
+
+li.left-aligned {
+    text-align: left;
+    font-size: 50px;
+}
