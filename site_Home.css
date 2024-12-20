@@ -8,7 +8,7 @@ body {
 
 
 nav {
-    background-color: #D2B48C;
+    background-color: #44331d;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ nav ul {
 }
 
 li {
-    color: #afafaf;
+    color: #a07474;
     display: inline;
 }
 
@@ -83,7 +83,7 @@ button:hover {
             width: 120%;
             max-width: 1200px;
             margin: 0 auto;
-            background-color: #F5F5DC;
+            background-color: #c5c53d;
         }
 
         .product1,
